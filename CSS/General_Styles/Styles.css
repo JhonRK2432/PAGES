@@ -1,0 +1,104 @@
+:root {
+    --margin_top_image: -30.6%;
+    --color_text: #FFFFFF;
+    --letter_type: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    --letter_size: 1.3em;
+    --letter_top: 85%;
+}
+body{
+    font-size: 100%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    margin: 2%;
+    background-color: #E3FEF7;
+}
+
+.Fondo {
+    h1 {
+        font-size: 2.5em;
+        font-family: var(--letter_type);
+        color: var(--color_text);
+        padding-top: 4%;
+        text-align: center;
+    }
+    background-color: #135D66;
+    width: 890px;
+    height: 500px;   
+    border-radius: 20px;
+    margin: 0 auto;
+        
+}
+.Home {
+    button {
+        background-color: #77B0AA;
+        border-radius: 8px;
+        border-color: #77B0AA;
+        height: auto;
+        margin-left: 90%;
+        padding: 8px;
+        width: 80px;
+    }
+}
+.Perfil {
+    img {
+        padding: 0%;
+        background-color: #135D66;
+        width: 80px;
+        height: 80px;
+        margin-left: 3%;
+        border-radius: 40px;
+    }
+}
+
+.First_Imagen {
+    position: relative;
+    img{
+        border-radius: 8%;
+        margin-left: 3%;
+    }
+}
+.Second_Imagen {
+    position: relative;
+    img{
+        margin-left: 35%;
+        margin-top: var(--margin_top_image);
+    }
+}
+.Third_Imagen {
+    position: relative;
+    img{
+        margin-left: 67%;
+        margin-top: var(--margin_top_image);
+    }
+}
+img {
+    padding: 4%;
+    width: 200px;
+    height: 200px;
+    display: block;
+    background-color: #77B0AA;
+    border-radius: 8%;
+}
+
+.text1 {
+    position: absolute;
+    top: var(--letter_top);
+    left: 18%;
+    transform: translate(-50%, -50%);
+}
+.text2{
+    position: absolute;
+    top: var(--letter_top);
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.text3 {
+    position: absolute;
+    top: var(--letter_top);
+    left: 82%;
+    transform: translate(-50%, -50%);
+}
+h3 {
+    font-size: var(--letter_size);
+    font-family: var(--letter_type);
+    color: var(--color_text);
+}
